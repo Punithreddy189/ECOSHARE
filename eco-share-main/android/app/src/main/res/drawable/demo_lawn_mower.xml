@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Soft green garden background -->
+    <path
+        android:fillColor="#ECFDF5"
+        android:pathData="M10,20 Q10,10 20,10 L80,10 Q90,10 90,20 L90,80 Q90,90 80,90 L20,90 Q10,90 10,80 Z" />
+
+    <!-- Mower Handle -->
+    <path
+        android:strokeColor="#334155"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M78,22 L72,22 L52,54 M78,22 L82,22" />
+
+    <!-- Grass catcher box (back) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M48,54 L68,54 L64,68 L44,68 Z" />
+
+    <!-- Mower Motor Deck (Eco Green) -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M24,56 Q24,50 34,50 L52,50 Q56,50 56,56 L58,68 L22,68 Z" />
+
+    <!-- Battery Cover / Accent -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M32,46 L46,46 L44,50 L34,50 Z" />
+
+    <!-- Front & Rear Wheels -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M24,70 m -7,0 a 7,7 0 1,0 14,0 a 7,7 0 1,0 -14,0" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M24,70 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" />
+
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M58,70 m -8,0 a 8,8 0 1,0 16,0 a 8,8 0 1,0 -16,0" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M58,70 m -3.5,0 a 3.5,3.5 0 1,0 7,0 a 3.5,3.5 0 1,0 -7,0" />
+
+    <!-- Grass base -->
+    <path
+        android:strokeColor="#059669"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M14,78 L86,78" />
+</vector>

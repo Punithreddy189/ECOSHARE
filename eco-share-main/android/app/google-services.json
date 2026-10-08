@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749730328979",
+    "project_id": "ecoshare-app-2026",
+    "storage_bucket": "ecoshare-app-2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749730328979:android:a1b2c3d4e5f6g7h8",
+        "android_client_info": {
+          "package_name": "com.ecoshare.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCML2DwhVEb17zri9LDPxrkjv_NTB_LHyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

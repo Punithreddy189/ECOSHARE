@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Soft green/mountain background -->
+    <path
+        android:fillColor="#DCFCE7"
+        android:pathData="M10,20 Q10,10 20,10 L80,10 Q90,10 90,20 L90,80 Q90,90 80,90 L20,90 Q10,90 10,80 Z" />
+
+    <!-- Tent Outer Dome -->
+    <path
+        android:fillColor="#0D9488"
+        android:pathData="M16,74 L50,26 L84,74 Z" />
+
+    <!-- Tent Side Panel / Shadow -->
+    <path
+        android:fillColor="#0F766E"
+        android:pathData="M50,26 L84,74 L60,74 Z" />
+
+    <!-- Open Flap Doorway -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M38,74 L50,44 L60,74 Z" />
+
+    <!-- Guy lines / Stakes -->
+    <path
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M50,26 L50,20 M16,74 L10,78 M84,74 L90,78" />
+
+    <!-- Base line -->
+    <path
+        android:strokeColor="#166534"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M14,75 L86,75" />
+</vector>

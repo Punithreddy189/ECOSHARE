@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production & Build outputs
+dist/
+**/dist/
+build/
+**/build/
+bin/
+gen/
+out/
+
+# Android & Gradle
+.gradle/
+**/.gradle/
+.kotlin/
+**/.kotlin/
+local.properties
+**/local.properties
+*.apk
+*.aab
+*.dex
+*.class
+release-apk/
+**/release-apk/
+
+# Allow gradle wrapper jar
+!**/gradle-wrapper.jar
+
+# Environment & Secrets
+.env
+**/.env
+.env.local
+**/.env.local
+.env.*.local
+**/.env.*.local
+!.env.example
+!**/.env.example
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+**/venv/
+**/.venv/
+.pytest_cache/
+
+# IDE & Editor files
+.idea/
+**/.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+**/*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System & Temp files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+scratch/

@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Soft background -->
+    <path
+        android:fillColor="#F3E8FF"
+        android:pathData="M10,20 Q10,10 20,10 L80,10 Q90,10 90,20 L90,80 Q90,90 80,90 L20,90 Q10,90 10,80 Z" />
+
+    <!-- Book 1 (Bottom Book - Blue) -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M22,66 L78,66 Q82,66 82,72 L82,78 Q82,82 78,82 L22,82 Q18,82 18,78 L18,72 Q18,66 22,66 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,69 L76,69 L76,79 L28,79 Z" />
+
+    <!-- Book 2 (Middle Book - Green) -->
+    <path
+        android:fillColor="#087F5B"
+        android:pathData="M26,48 L76,48 Q80,48 80,54 L80,60 Q80,64 76,64 L26,64 Q22,64 22,60 L22,54 Q22,48 26,48 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,51 L74,51 L74,61 L32,61 Z" />
+
+    <!-- Book 3 (Top Book - Orange) -->
+    <path
+        android:fillColor="#EA580C"
+        android:pathData="M30,30 L72,30 Q76,30 76,36 L76,42 Q76,46 72,46 L30,46 Q26,46 26,42 L26,36 Q26,30 30,30 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,33 L70,33 L70,43 L36,43 Z" />
+
+    <!-- Bookmark ribbon -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M48,26 L54,26 L54,42 L51,39 L48,42 Z" />
+</vector>

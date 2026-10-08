@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Background circle / badge -->
+    <path
+        android:fillColor="#E6FCF5"
+        android:pathData="M10,20 Q10,10 20,10 L80,10 Q90,10 90,20 L90,80 Q90,90 80,90 L20,90 Q10,90 10,80 Z" />
+    
+    <!-- Cordless Drill Body -->
+    <path
+        android:fillColor="#087F5B"
+        android:pathData="M25,32 L60,32 Q66,32 66,38 L66,48 Q66,52 62,54 L52,55 L50,75 Q50,78 46,78 L34,78 Q30,78 30,75 L34,55 L25,50 Z" />
+    
+    <!-- Chuck and Bit -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M66,37 L75,37 L75,43 L66,43 Z" />
+    <path
+        android:fillColor="#64748B"
+        android:pathData="M75,39 L88,39 L88,41 L75,41 Z" />
+    
+    <!-- Battery Pack Base -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M26,75 L54,75 Q56,75 56,78 L56,84 Q56,86 54,86 L26,86 Q24,86 24,84 L24,78 Q24,75 26,75 Z" />
+    
+    <!-- Trigger & Accent -->
+    <path
+        android:fillColor="#F4C542"
+        android:pathData="M48,56 L44,56 L44,62 L48,60 Z" />
+    
+    <!-- Air vents -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M30,37 L38,37 M30,41 L38,41 M30,45 L38,45" />
+</vector>

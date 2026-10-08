@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Soft eco background -->
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M10,20 Q10,10 20,10 L80,10 Q90,10 90,20 L90,80 Q90,90 80,90 L20,90 Q10,90 10,80 Z" />
+
+    <!-- Green leaves -->
+    <path
+        android:fillColor="#15803D"
+        android:pathData="M50,30 Q60,18 72,25 Q65,36 50,30 Z" />
+    <path
+        android:fillColor="#16A34A"
+        android:pathData="M48,30 Q36,20 28,30 Q38,38 48,30 Z" />
+
+    <!-- Big Center Lemon -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M24,55 Q20,38 45,34 Q75,30 76,55 Q78,76 52,78 Q26,80 24,55 Z" />
+
+    <!-- Lemon tips -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M20,53 Q16,55 20,58 Z M76,53 Q80,55 76,58 Z" />
+
+    <!-- Second small lemon / slice behind -->
+    <path
+        android:fillColor="#FCD34D"
+        android:pathData="M58,62 Q68,48 82,56 Q84,72 70,76 Z" />
+
+    <!-- Stem -->
+    <path
+        android:strokeColor="#78350F"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M50,32 L49,24" />
+</vector>

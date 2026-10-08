@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoShare</string>
+    <string name="title_activity_main">EcoShare</string>
+    <string name="package_name">com.ecoshare.app</string>
+    <string name="app_tagline">Local Eco Community Resource Sharing</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_browse">Browse</string>
+    <string name="nav_events">Events</string>
+    <string name="nav_messages">Messages</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Auth -->
+    <string name="login_title">Sign In</string>
+    <string name="login_welcome">Welcome to EcoShare</string>
+    <string name="login_subtitle">Share unused resources &amp; support your community</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="name_hint">Full Name</string>
+    <string name="location_hint">Location / Neighborhood</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="sign_up_button">Create Account</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account">Don\'t have an account? Sign Up</string>
+    <string name="have_account">Already have an account? Sign In</string>
+    <string name="reset_password">Reset Password</string>
+
+    <!-- Listing Types -->
+    <string name="type_borrow">Borrow</string>
+    <string name="type_rent">Rent</string>
+    <string name="type_sell">Sell</string>
+    <string name="type_exchange">Exchange</string>
+</resources>
